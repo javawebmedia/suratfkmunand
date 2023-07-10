@@ -12,4 +12,10 @@ class Login extends Controller
         $data = [   'title' => 'Login Administrator'];
         return view('login/index',$data);
     }
+
+    // hai
+    public function logout()
+    {
+        
+    }
 }
