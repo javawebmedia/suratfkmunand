@@ -20,3 +20,5 @@ Route::get('/', function () {
 Route::get('home', 'App\Http\Controllers\Home@index');
 // login
 Route::get('login', 'App\Http\Controllers\Login@index');
+// administrator page
+Route::get('admin/dasbor', 'App\Http\Controllers\Admin\Dasbor@index');
